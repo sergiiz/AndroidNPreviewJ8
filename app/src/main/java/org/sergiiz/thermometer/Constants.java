@@ -6,11 +6,11 @@ package org.sergiiz.thermometer;
  *         Time: 9:23
  */
 
-public final class Constants {
+final class Constants {
 	private Constants() {
 	}
 
-	public final static String DEGREE = "\u00b0";
+	final static String DEGREE = "\u00b0";
 
-	public final static String FORMAT_TEMPERATURE = "%.2f";
+	final static String FORMAT_TEMPERATURE = "%.2f";
 }

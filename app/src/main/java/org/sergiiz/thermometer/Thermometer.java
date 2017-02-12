@@ -8,7 +8,7 @@ import java.util.Locale;
  *         Time: 0:22
  */
 
-public interface Thermometer {
+interface Thermometer {
 
 	void setCelsius(final float celsiusValue);
 

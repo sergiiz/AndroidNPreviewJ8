@@ -6,11 +6,11 @@ package org.sergiiz.thermometer;
  *         Time: 0:37
  */
 
-public class KelvinThermometer implements Thermometer {
+class KelvinThermometer implements Thermometer {
 
 	private float kelvinDeg;
 
-	public KelvinThermometer(float celsius) {
+	KelvinThermometer(float celsius) {
 		setCelsius(celsius);
 	}
 

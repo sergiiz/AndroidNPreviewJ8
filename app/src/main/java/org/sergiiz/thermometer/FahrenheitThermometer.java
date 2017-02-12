@@ -8,11 +8,11 @@ import static org.sergiiz.thermometer.Constants.DEGREE;
  *         Time: 0:42
  */
 
-public class FahrenheitThermometer implements Thermometer {
+class FahrenheitThermometer implements Thermometer {
 
 	private float fahrenheitDeg;
 
-	public FahrenheitThermometer(float celsius) {
+	FahrenheitThermometer(float celsius) {
 		setCelsius(celsius);
 	}
 
